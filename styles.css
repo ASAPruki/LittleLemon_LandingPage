@@ -1,0 +1,145 @@
+body {
+  background-color:  #ffe4c4;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1, h2 {
+  font-family: "lora", serif;
+}
+
+article > h1 {
+  text-align: justify;
+}
+
+header > img {
+  display: block;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+  background-color: rgb(210, 210, 210);
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: large;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+article div {
+  display: block;
+  height: 200px;
+}
+
+article img {
+  width: 100%;
+  max-height: 100%;
+  border-radius: 1rem;
+}
+
+article > p {
+  text-align: justify;
+}
+
+#main_article {
+  /* background-image: url(pizza.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.6; */
+  background-color: rgb(210, 210, 210);
+  border-radius: 2rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+#article1, #article2, #article3 {
+  background-color: rgb(210, 210, 210);
+  border-radius: 2rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+#article1:hover, #article2:hover, #article3:hover {
+  /* box-shadow: -5px 5px 8px 4px whitesmoke; */
+  box-shadow: rgba(210, 210, 210, 1) -5px 5px, rgba(210, 210, 210, 0.5) -10px 10px, rgba(210, 210, 210, 0.2) -15px 15px;
+  transform: translateY(-10px);
+  transition:  box-shadow .6s, transform 0.2s;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+li > a:hover {
+  color: orange;
+  transition: 0.5s;
+}
+
+#article2 > a {
+  text-decoration: none;
+  text-align: right;
+  font-size: x-large;
+}
+
+#article2 > a:hover {
+  color: orange;
+  transition: 0.5s;
+}
+
+#article3 > ul li {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  margin-top: 5rem;
+}
+
+footer div {
+  flex: 1;
+}
+
+footer > div img {
+  width: auto;
+  height: 10rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+footer > div p {
+  text-align: end;
+  text-decoration-line: overline;
+  margin-right: 1rem;
+}
